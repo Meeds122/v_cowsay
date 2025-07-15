@@ -7,7 +7,7 @@ fn main() {
 		help(os.args[0])
 	}
 	else {
-		// Mutable string to past args > 0 into
+		// Mutable string to paste args > 0 into
 		mut cow_say := ""
 		// Build string of complete cow say
 		for i, arg in os.args{
